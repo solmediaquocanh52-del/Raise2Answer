@@ -1,0 +1,9 @@
+Package: com.vn.raise2answer
+Name: Raise2Answer
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Dua may len tai de tu dong tra loi cuoc goi, lat up de tat chuong, dua ra xa tai de bat loa ngoai
+Maintainer: you
+Author: you
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
