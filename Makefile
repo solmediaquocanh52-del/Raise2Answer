@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = Raise2Answer
 Raise2Answer_FILES = Tweak.x
-Raise2Answer_CFLAGS = -fobjc-arc
+Raise2Answer_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-error
 Raise2Answer_FRAMEWORKS = UIKit CoreMotion CoreTelephony
 
 include $(THEOS_MAKE_PATH)/tweak.mk
